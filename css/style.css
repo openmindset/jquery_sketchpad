@@ -52,9 +52,9 @@ table {
 
 #container {
 	width:  680px;
-	height: 800px;
+	height: 680px;
 	border: 1px solid #666;
-	margin: 0px auto;
+	margin: 30px auto;
 }
 
 .grid_square {
@@ -62,4 +62,8 @@ table {
 	width: 40px;
 	height: 40px;
 	float:left;
+}
+
+.shaded {
+	background-color: #444;
 }

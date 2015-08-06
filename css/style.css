@@ -57,6 +57,24 @@ table {
 	margin: 30px auto;
 }
 
+#controls {
+	width: 200px;
+	height: 53px;
+	border: 1px solid #666;
+	margin: 30px auto;
+}
+
+#controls h3 {
+	margin: 5px auto;
+	text-align: center;
+}
+
+#controls button {
+	display: block;
+	margin: 5px auto;
+}
+
+
 .grid_square {
 	border: 1px dotted red;
 	width: 40px;

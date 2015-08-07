@@ -1,6 +1,6 @@
 var num_grids_hw = 16;
 var total_num_grids = num_grids_hw * num_grids_hw;
-var container_width = 640;
+var container_width = 0;
 
 
 function calcGridSize(num_of_grids){
@@ -36,7 +36,10 @@ function resetGrids(){
 
 
 $(document).ready(function(){
+
+  container_width = $('#container').width();
   drawGrids(total_num_grids);
+
 
   $(".grid_square").mouseenter(function() {
     $(this).addClass('shaded');
